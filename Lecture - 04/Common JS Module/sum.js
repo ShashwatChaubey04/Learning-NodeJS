@@ -14,4 +14,8 @@ function calculateSum(a, b) {
 //   calculateSum: calculateSum,
 // };
 
+console.log(module.exports);     // module.exports is a empty object
 module.exports = {calculation, calculateSum};
+
+// module.exports.calculation = calculation;
+// module.exports.calculateSum = calculateSum;
