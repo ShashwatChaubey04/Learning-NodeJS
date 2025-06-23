@@ -1,3 +1,5 @@
+// Collection of JS code that is Separate & Private to itself and they can we Export by using module.exports
+
 require("./module.js");     // Including a Module inside another Module.
 // require("./module.js"); === require("./module");
 
