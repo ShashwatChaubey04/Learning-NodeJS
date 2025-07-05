@@ -1,4 +1,4 @@
-// Sync
+// require function work in Synchronous Mode
 const fs = require("fs");
 const https = require("https");
 
@@ -15,7 +15,7 @@ setTimeout(() => {
   console.log("setTimeout called after 5 seconds");
 }, 5000);
 
-fs.readFile("./file.txt", "utf-8", (err, data) => {
+fs.readFile("./Lecture - 07/file.txt", "utf-8", (err, data) => {
   console.log("File Data : ", data);
 });
 
